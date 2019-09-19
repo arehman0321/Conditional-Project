@@ -16,7 +16,7 @@ input.oninput = function(){
     i = 0,
     o = 0,
     u = 0;
-    console.log(test);
+    console.log(words);
     
     for (var y = 0; y < test.length; y++){
         
@@ -25,7 +25,7 @@ input.oninput = function(){
         }
         
     }
-    
+    console.log(words);
     for (var x = 0; x < char.length; x++){
         
         if ((char[x] === "A") || (char[x] === "a")){
