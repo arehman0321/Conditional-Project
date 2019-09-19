@@ -1,0 +1,23 @@
+body {
+    font-size: 20px;
+}
+
+textarea {
+    width: 400px;
+    height: 250px;
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+}
+
+body > * {
+    margin: auto;
+}
+
+p {
+    width: 400px;
+    overflow-y: auto;
+}
